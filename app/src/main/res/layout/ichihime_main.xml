@@ -3,66 +3,48 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/sign"/>
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/result"/>
+
+    <Button
+        android:id="@+id/score"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/score"/>
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"/>
 
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content" />
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"/>
+    </RelativeLayout>
 
 
-    </LinearLayout>
+
 
 
 </LinearLayout>

@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Majsoul_Soundboard</string>
+    <string name="sign">발성</string>
+    <string name="result">결과</string>
+    <string name="score">점수</string>
+    <string name="back">뒤로가기</string>
+    <string name="chi">치</string>
+    <string name="kan">깡</string>
+    <string name="pon">퐁</string>
+    <string name="pedora">북도라</string>
+    <string name="tsumo">쯔모</string>
+    <string name="ron">론</string>
+    <string name="richi">리치</string>
+    <string name="doublerichi">더블리치</string>
+    <string name="dong">동</string>
+    <string name="su">서</string>
 </resources>
