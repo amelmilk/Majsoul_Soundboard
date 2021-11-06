@@ -1,6 +1,7 @@
 package com.example.majsoul_soundboard;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,7 @@ public class Ichihime_Sign extends Activity {
     Button doublerichi;
     Button tsumo;
     Button ron;
+    Button back;
 
 
     @Override
@@ -32,15 +34,16 @@ public class Ichihime_Sign extends Activity {
         doublerichi = (Button) findViewById(R.id.doublerichi);
         tsumo = (Button) findViewById(R.id.tsumo);
         ron = (Button) findViewById(R.id.ron);
+        back = (Button) findViewById(R.id.back);
 
 
-        mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_ron);
+        mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
 
         chi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_chi);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_chi);
                 mediaPlayer.start();
             }
         });
@@ -49,7 +52,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_kan);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_kan);
                 mediaPlayer.start();
             }
         });
@@ -58,7 +61,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_pon);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pon);
                 mediaPlayer.start();
             }
         });
@@ -67,7 +70,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_pedora);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pedora);
                 mediaPlayer.start();
             }
         });
@@ -76,7 +79,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_richi);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_richi);
                 mediaPlayer.start();
             }
         });
@@ -85,7 +88,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_drichi);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_drichi);
                 mediaPlayer.start();
             }
         });
@@ -94,7 +97,7 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_tsumo);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_tsumo);
                 mediaPlayer.start();
             }
         });
@@ -103,11 +106,19 @@ public class Ichihime_Sign extends Activity {
             @Override
             public void onClick(View v) {
                 mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichihime_ron);
+                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
                 mediaPlayer.start();
             }
         });
 
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Ichihime_Main.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
 

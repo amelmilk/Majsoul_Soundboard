@@ -28,7 +28,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/richi"
+                        android:id="@+id/riichi"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -41,18 +41,195 @@
                         android:text="@string/doublerichi" />
 
                     <Button
-                        android:id="@+id/dong"
+                        android:id="@+id/east"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/dong" />
+                        android:text="@string/east" />
 
                     <Button
-                        android:id="@+id/su"
+                        android:id="@+id/west"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/su" />
+                        android:text="@string/west" />
+
+                    <Button
+                        android:id="@+id/deast"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deast" />
+
+                    <Button
+                        android:id="@+id/dwest"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dwest" />
+
+                    <Button
+                        android:id="@+id/haku"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/haku" />
+
+                    <Button
+                        android:id="@+id/chuu"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chuu" />
+
+                    <Button
+                        android:id="@+id/iipeikou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iipeikou" />
+
+                    <Button
+                        android:id="@+id/houtei"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/houtei" />
+
+                    <Button
+                        android:id="@+id/rinshan"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rinshan" />
+
+                    <Button
+                        android:id="@+id/chiitoi"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chiitoi" />
+
+                    <Button
+                        android:id="@+id/sanshoku"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sanshoku" />
+
+                    <Button
+                        android:id="@+id/sanankou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sanankou" />
+
+                    <Button
+                        android:id="@+id/ittsu"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ittsu" />
+
+                    <Button
+                        android:id="@+id/shousangen"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shousangen" />
+
+                    <Button
+                        android:id="@+id/ryanpeikou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ryanpeikou" />
+
+                    <Button
+                        android:id="@+id/honiisou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/honiisou" />
+
+                    <Button
+                        android:id="@+id/tenhou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tenhou" />
+
+                    <Button
+                        android:id="@+id/kokushi"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kokushi" />
+
+                    <Button
+                        android:id="@+id/suuankou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suuankou" />
+
+                    <Button
+                        android:id="@+id/chuuren"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chuuren" />
+
+                    <Button
+                        android:id="@+id/ryuuiisou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ryuuiisou" />
+
+                    <Button
+                        android:id="@+id/shousuushii"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shousuushii" />
+
+                    <Button
+                        android:id="@+id/suukan"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suukan" />
+
+                    <Button
+                        android:id="@+id/chinroutou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chinroutou" />
+
+                    <Button
+                        android:id="@+id/dora01"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora01" />
+
+                    <Button
+                        android:id="@+id/dora03"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora03" />
+
+                    <Button
+                        android:id="@+id/dora05"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora05" />
+
+                    <Button
+                        android:id="@+id/dora07"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora07" />
+
+                    <Button
+                        android:id="@+id/dora09"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora09" />
+
+                    <Button
+                        android:id="@+id/dora11"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora11" />
+
+                    <Button
+                        android:id="@+id/dora13"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora13" />
 
                 </LinearLayout>
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -66,25 +243,195 @@
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="@string/kan" />
+                        android:text="@string/ippatsu" />
 
                     <Button
-                        android:id="@+id/pinhu"
+                        android:id="@+id/pinfu"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/pedora" />
+                        android:text="@string/pinfu" />
 
                     <Button
-                        android:id="@+id/doublerichi"
+                        android:id="@+id/south"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/doublerichi" />
+                        android:text="@string/south" />
 
                     <Button
-                        android:id="@+id/ron"
+                        android:id="@+id/north"
                         android:layout_width="160dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/ron" />
+                        android:text="@string/north" />
+
+                    <Button
+                        android:id="@+id/dsouth"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dsouth" />
+
+                    <Button
+                        android:id="@+id/dnorth"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dnorth" />
+
+                    <Button
+                        android:id="@+id/patsu"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/patsu" />
+
+                    <Button
+                        android:id="@+id/tanyao"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tanyao" />
+
+                    <Button
+                        android:id="@+id/haitei"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/haitei" />
+
+                    <Button
+                        android:id="@+id/tsumo"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tsumo" />
+
+                    <Button
+                        android:id="@+id/chankan"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chankan" />
+
+                    <Button
+                        android:id="@+id/toitoi"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toitoi" />
+
+                    <Button
+                        android:id="@+id/sanshoku_doukou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sanshoku_doukou" />
+
+                    <Button
+                        android:id="@+id/sankantsu"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sankantsu" />
+
+                    <Button
+                        android:id="@+id/chanta"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chanta" />
+
+                    <Button
+                        android:id="@+id/honroutou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/honroutou" />
+
+                    <Button
+                        android:id="@+id/junchan"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/junchan" />
+
+                    <Button
+                        android:id="@+id/chinitsu"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chinitsu" />
+
+                    <Button
+                        android:id="@+id/chiihou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chiihou" />
+
+                    <Button
+                        android:id="@+id/kokushi13"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kokushi13" />
+
+
+                    <Button
+                        android:id="@+id/suuankou1men"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suuankou1men" />
+
+
+                    <Button
+                        android:id="@+id/chuuren9men"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chuuren9men" />
+
+                    <Button
+                        android:id="@+id/tsuuiisou"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tsuuiisou" />
+
+                    <Button
+                        android:id="@+id/daisuushii"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/daisuushii" />
+
+                    <Button
+                        android:id="@+id/daisangen"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/daisangen" />
+
+                    <Button
+                        android:id="@+id/nagashi"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nagashi" />
+
+                    <Button
+                        android:id="@+id/dora02"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora02" />
+
+                    <Button
+                        android:id="@+id/dora04"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora04" />
+
+                    <Button
+                        android:id="@+id/dora06"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora06" />
+
+                    <Button
+                        android:id="@+id/dora08"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora08" />
+
+                    <Button
+                        android:id="@+id/dora10"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora10" />
+
+                    <Button
+                        android:id="@+id/dora12"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dora12" />
 
 
                 </LinearLayout>
@@ -103,13 +450,14 @@
         android:layout_weight="11">
 
         <Button
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/back"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="20dp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:text="@string/back" />
 
     </RelativeLayout>
 
