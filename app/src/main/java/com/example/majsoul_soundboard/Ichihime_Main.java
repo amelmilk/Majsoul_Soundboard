@@ -29,7 +29,6 @@ public class Ichihime_Main extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Ichihime_Sign.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -38,7 +37,6 @@ public class Ichihime_Main extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Ichihime_Result.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -47,15 +45,12 @@ public class Ichihime_Main extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Ichihime_Score.class);
                 startActivity(intent);
-                finish();
             }
         });
 
         moveback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(intent);
                 finish();
             }
         });

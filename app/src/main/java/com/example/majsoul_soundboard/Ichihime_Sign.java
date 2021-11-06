@@ -10,7 +10,7 @@ import android.widget.Button;
 import androidx.annotation.Nullable;
 
 public class Ichihime_Sign extends Activity {
-    MediaPlayer mediaPlayer;
+    MediaPlayer mediaplayer;
     Button chi;
     Button kan;
     Button pon;
@@ -37,85 +37,83 @@ public class Ichihime_Sign extends Activity {
         back = (Button) findViewById(R.id.back);
 
 
-        mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
+        mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
 
         chi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_chi);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_chi);
+                mediaplayer.start();
             }
         });
 
         kan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_kan);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_kan);
+                mediaplayer.start();
             }
         });
 
         pon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pon);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pon);
+                mediaplayer.start();
             }
         });
 
         pedora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pedora);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_pedora);
+                mediaplayer.start();
             }
         });
 
         richi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_richi);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_richi);
+                mediaplayer.start();
             }
         });
 
         doublerichi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_drichi);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_drichi);
+                mediaplayer.start();
             }
         });
 
         tsumo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_tsumo);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_tsumo);
+                mediaplayer.start();
             }
         });
 
         ron.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Sign.this, R.raw.ichi_act_ron);
+                mediaplayer.start();
             }
         });
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Ichihime_Main.class);
-                startActivity(intent);
                 finish();
             }
         });

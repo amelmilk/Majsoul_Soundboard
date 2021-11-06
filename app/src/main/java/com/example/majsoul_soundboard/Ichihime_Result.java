@@ -1,6 +1,7 @@
 package com.example.majsoul_soundboard;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -566,6 +567,62 @@ public class Ichihime_Result extends Activity {
             }
         });
 
+        tsuuiisou.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_tsuuiisou);
+                mediaplayer.start();
+            }
+        });
+
+        daisangen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_daisangen);
+                mediaplayer.start();
+            }
+        });
+
+
+        shousuushii.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_shousuushii);
+                mediaplayer.start();
+            }
+        });
+
+        daisuushii.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_daisuushii);
+                mediaplayer.start();
+            }
+        });
+
+        suukantsu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_suukantsu);
+                mediaplayer.start();
+            }
+        });
+
+        chinroutou.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chinroutou);
+                mediaplayer.start();
+            }
+        });
+
+
         dora01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -680,6 +737,13 @@ public class Ichihime_Result extends Activity {
                 mediaplayer.stop();
                 mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora13);
                 mediaplayer.start();
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
             }
         });
 
