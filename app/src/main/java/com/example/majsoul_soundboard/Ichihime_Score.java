@@ -28,6 +28,7 @@ public class Ichihime_Score extends Activity {
     Button tsuukan;
     Button wind4;
     Button winner;
+    Button back;
 
 
 
@@ -53,6 +54,7 @@ public class Ichihime_Score extends Activity {
         tsuukan = (Button)findViewById(R.id.tsuukan);
         wind4 = (Button)findViewById(R.id.wind4);
         winner = (Button)findViewById(R.id.winner);
+        back  = (Button)findViewById(R.id.back);
 
         mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_act_chi);
 
@@ -61,7 +63,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_tenpai);
-
+                mediaPlayer.start();
             }
         });
 
@@ -70,7 +72,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_noten);
-
+                mediaPlayer.start();
             }
         });
 
@@ -79,7 +81,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_mangan);
-
+                mediaPlayer.start();
             }
         });
 
@@ -88,7 +90,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_haneman);
-
+                mediaPlayer.start();
             }
         });
 
@@ -97,7 +99,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_baiman);
-
+                mediaPlayer.start();
             }
         });
 
@@ -106,7 +108,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sanbaiman);
-
+                mediaPlayer.start();
             }
         });
 
@@ -115,7 +117,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kazoe_yakuman);
-
+                mediaPlayer.start();
             }
         });
 
@@ -124,7 +126,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman1);
-
+                mediaPlayer.start();
             }
         });
 
@@ -133,7 +135,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman2);
-
+                mediaPlayer.start();
             }
         });
 
@@ -142,7 +144,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman3);
-
+                mediaPlayer.start();
             }
         });
 
@@ -151,7 +153,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman4);
-
+                mediaPlayer.start();
             }
         });
 
@@ -160,7 +162,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman5);
-
+                mediaPlayer.start();
             }
         });
 
@@ -169,7 +171,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman6);
-
+                mediaPlayer.start();
             }
         });
 
@@ -178,7 +180,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kyushukyuhai);
-
+                mediaPlayer.start();
             }
         });
 
@@ -187,7 +189,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sukansanra);
-
+                mediaPlayer.start();
             }
         });
 
@@ -196,7 +198,7 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sufontsurenta);
-
+                mediaPlayer.start();
             }
         });
 
@@ -205,9 +207,19 @@ public class Ichihime_Score extends Activity {
             public void onClick(View v) {
                 mediaPlayer.stop();
                 mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_game_top);
-
+                mediaPlayer.start();
             }
         });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+                mediaPlayer=null;
+            }
+        });
+
+
 
 
 
