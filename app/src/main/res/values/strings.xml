@@ -74,4 +74,21 @@
     <string name="dora10">도라10</string>
     <string name="dora13">도라13</string>
     <string name="dora12">도라12</string>
+    <string name="tenpai">텐파이</string>
+    <string name="mangan">만관</string>
+    <string name="baiman">배만</string>
+    <string name="kazoeyakuman">헤아림역만</string>
+    <string name="noten">노텐</string>
+    <string name="haneman">하네만</string>
+    <string name="sanbaiman">3배만</string>
+    <string name="yakuman">역만</string>
+    <string name="yakuman2">2배역만</string>
+    <string name="yakuman4">4배역만</string>
+    <string name="yakuman6">6배역만</string>
+    <string name="tsuukan">4깡유국</string>
+    <string name="winner">1등!</string>
+    <string name="yakuman3">3배역만</string>
+    <string name="yakuman5">5배역만</string>
+    <string name="kyusyu">구종구패</string>
+    <string name="wind4">4풍연타</string>
 </resources>

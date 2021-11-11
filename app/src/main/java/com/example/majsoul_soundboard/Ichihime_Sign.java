@@ -114,6 +114,8 @@ public class Ichihime_Sign extends Activity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mediaplayer.release();
+                mediaplayer = null;
                 finish();
             }
         });
