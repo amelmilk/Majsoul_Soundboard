@@ -1,7 +1,6 @@
 package com.example.majsoul_soundboard;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -151,7 +150,7 @@ public class Miki_Result extends Activity {
         dora13 = (Button) findViewById(R.id.dora13);
         back = (Button) findViewById(R.id.back);
 
-        mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.ichi_act_ron);
+        mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_act_ron);
 
         riichi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -175,7 +174,7 @@ public class Miki_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_drich);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_drichi);
                 mediaplayer.start();
             }
         });
@@ -663,7 +662,7 @@ public class Miki_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Miki_Result, R.raw.dora05)
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora05);
                 mediaplayer.start();
             }
         });
@@ -672,7 +671,7 @@ public class Miki_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.miki_fan_dora06);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora06);
                 mediaplayer.start();
             }
         });
