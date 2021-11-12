@@ -3,14 +3,13 @@ package com.example.majsoul_soundboard;
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
 public class Ichihime_Score extends Activity {
-    MediaPlayer mediaPlayer;
+    MediaPlayer mediaplayer;
     Button tenpai;
     Button noten;
     Button mangan;
@@ -56,166 +55,168 @@ public class Ichihime_Score extends Activity {
         winner = (Button)findViewById(R.id.winner);
         back  = (Button)findViewById(R.id.back);
 
-        mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_act_chi);
+        mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_act_chi);
 
         tenpai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_tenpai);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_tenpai);
+                mediaplayer.start();
             }
         });
 
         noten.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_noten);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_noten);
+                mediaplayer.start();
             }
         });
 
         mangan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_mangan);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_mangan);
+                mediaplayer.start();
             }
         });
 
         haneman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_haneman);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_haneman);
+                mediaplayer.start();
             }
         });
 
         baiman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_baiman);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_baiman);
+                mediaplayer.start();
             }
         });
 
         sanbaiman.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sanbaiman);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sanbaiman);
+                mediaplayer.start();
             }
         });
 
         kazoe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kazoe_yakuman);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kazoe_yakuman);
+                mediaplayer.start();
             }
         });
 
         yakuman1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman1);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman1);
+                mediaplayer.start();
             }
         });
 
         yakuman2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman2);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman2);
+                mediaplayer.start();
             }
         });
 
         yakuman3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman3);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman3);
+                mediaplayer.start();
             }
         });
 
         yakuman4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman4);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman4);
+                mediaplayer.start();
             }
         });
 
         yakuman5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman5);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman5);
+                mediaplayer.start();
             }
         });
 
         yakuman6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman6);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_yakuman6);
+                mediaplayer.start();
             }
         });
 
         kyusyu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kyushukyuhai);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kyushukyuhai);
+                mediaplayer.start();
             }
         });
 
         tsuukan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sukansanra);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sukansanra);
+                mediaplayer.start();
             }
         });
 
         wind4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sufontsurenta);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_sufontsurenta);
+                mediaplayer.start();
             }
         });
 
         winner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mediaPlayer.stop();
-                mediaPlayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_game_top);
-                mediaPlayer.start();
+                mediaplayer.stop();
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_game_top);
+                mediaplayer.start();
             }
         });
 
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mediaplayer.release();
+                mediaplayer = null;
                 finish();
-                mediaPlayer=null;
+
             }
         });
 

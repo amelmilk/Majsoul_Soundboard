@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
-public class Ichihime_Result extends Activity {
+public class Miki_Result extends Activity {
 
     MediaPlayer mediaplayer;
     Button riichi;
@@ -82,7 +82,7 @@ public class Ichihime_Result extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ichihime_result);
+        setContentView(R.layout.miki_result);
         riichi = (Button) findViewById(R.id.riichi);
         ippatsu = (Button) findViewById(R.id.ippatsu);
         driichi = (Button) findViewById(R.id.doublerichi);
@@ -151,13 +151,13 @@ public class Ichihime_Result extends Activity {
         dora13 = (Button) findViewById(R.id.dora13);
         back = (Button) findViewById(R.id.back);
 
-        mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_act_ron);
+        mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.ichi_act_ron);
 
         riichi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_riichi);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_riichi);
                 mediaplayer.start();
             }
         });
@@ -166,7 +166,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_ippatsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_ippatsu);
                 mediaplayer.start();
             }
         });
@@ -175,7 +175,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_drich);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_drich);
                 mediaplayer.start();
             }
         });
@@ -184,7 +184,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_pinfu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_pinfu);
                 mediaplayer.start();
             }
         });
@@ -193,7 +193,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_east);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_east);
                 mediaplayer.start();
             }
         });
@@ -202,7 +202,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_south);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_south);
                 mediaplayer.start();
             }
         });
@@ -211,7 +211,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_west);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_west);
                 mediaplayer.start();
             }
         });
@@ -220,7 +220,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_north);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_north);
                 mediaplayer.start();
             }
         });
@@ -229,7 +229,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_deast);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_deast);
                 mediaplayer.start();
             }
         });
@@ -238,7 +238,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dsouth);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dsouth);
                 mediaplayer.start();
             }
         });
@@ -247,7 +247,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dwest);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dwest);
                 mediaplayer.start();
             }
         });
@@ -256,7 +256,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dnorth);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dnorth);
                 mediaplayer.start();
             }
         });
@@ -265,7 +265,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_white);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_white);
                 mediaplayer.start();
             }
         });
@@ -274,7 +274,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_shoot);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_shoot);
                 mediaplayer.start();
             }
         });
@@ -283,7 +283,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_center);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_center);
                 mediaplayer.start();
             }
         });
@@ -292,7 +292,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_tanyao);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_tanyao);
                 mediaplayer.start();
             }
         });
@@ -301,7 +301,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_iipeikou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_iipeikou);
                 mediaplayer.start();
             }
         });
@@ -310,7 +310,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_haitei);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_haitei);
                 mediaplayer.start();
             }
         });
@@ -319,7 +319,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_houtei);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_houtei);
                 mediaplayer.start();
             }
         });
@@ -328,7 +328,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_tsumo);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_tsumo);
                 mediaplayer.start();
             }
         });
@@ -337,7 +337,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_rinshan);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_rinshan);
                 mediaplayer.start();
             }
         });
@@ -346,7 +346,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chankan);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chankan);
                 mediaplayer.start();
             }
         });
@@ -355,7 +355,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chiitoitsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chiitoitsu);
                 mediaplayer.start();
             }
         });
@@ -364,7 +364,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_toitoi);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_toitoi);
                 mediaplayer.start();
             }
         });
@@ -373,7 +373,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_sanshokudoujun);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_sanshokudoujun);
                 mediaplayer.start();
             }
         });
@@ -382,7 +382,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_sanshokudoukou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_sanshokudoukou);
                 mediaplayer.start();
             }
         });
@@ -391,7 +391,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_sanankou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_sanankou);
                 mediaplayer.start();
             }
         });
@@ -400,7 +400,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_sankantsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_sankantsu);
                 mediaplayer.start();
             }
         });
@@ -409,7 +409,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_itsuu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_itsuu);
                 mediaplayer.start();
             }
         });
@@ -418,7 +418,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chanta);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chanta);
                 mediaplayer.start();
             }
         });
@@ -427,7 +427,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_shousangen);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_shousangen);
                 mediaplayer.start();
             }
         });
@@ -436,7 +436,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_honroutou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_honroutou);
                 mediaplayer.start();
             }
         });
@@ -445,7 +445,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_ryanpeikou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_ryanpeikou);
                 mediaplayer.start();
             }
         });
@@ -454,7 +454,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_junchan);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_junchan);
                 mediaplayer.start();
             }
         });
@@ -463,7 +463,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_honitsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_honitsu);
                 mediaplayer.start();
             }
         });
@@ -472,7 +472,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chinitsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chinitsu);
                 mediaplayer.start();
             }
         });
@@ -481,7 +481,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_nagashi);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_nagashi);
                 mediaplayer.start();
             }
         });
@@ -490,7 +490,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_tenhou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_tenhou);
                 mediaplayer.start();
             }
         });
@@ -499,7 +499,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chiihou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chiihou);
                 mediaplayer.start();
             }
         });
@@ -508,7 +508,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_kokushimusou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_kokushimusou);
                 mediaplayer.start();
             }
         });
@@ -517,7 +517,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_kokushimusou13);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_kokushimusou13);
                 mediaplayer.start();
             }
         });
@@ -526,7 +526,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_suuankou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_suuankou);
                 mediaplayer.start();
             }
         });
@@ -535,7 +535,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_suuankoutanki);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_suuankoutanki);
                 mediaplayer.start();
             }
         });
@@ -544,7 +544,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chuuren);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chuuren);
                 mediaplayer.start();
             }
         });
@@ -553,7 +553,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chuuren9);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chuuren9);
                 mediaplayer.start();
             }
         });
@@ -562,7 +562,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_ryuuiisou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_ryuuiisou);
                 mediaplayer.start();
             }
         });
@@ -571,7 +571,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_tsuuiisou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_tsuuiisou);
                 mediaplayer.start();
             }
         });
@@ -580,7 +580,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_daisangen);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_daisangen);
                 mediaplayer.start();
             }
         });
@@ -590,7 +590,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_shousuushii);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_shousuushii);
                 mediaplayer.start();
             }
         });
@@ -599,7 +599,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_daisuushii);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_daisuushii);
                 mediaplayer.start();
             }
         });
@@ -608,7 +608,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_suukantsu);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_suukantsu);
                 mediaplayer.start();
             }
         });
@@ -617,7 +617,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_chinroutou);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_chinroutou);
                 mediaplayer.start();
             }
         });
@@ -627,7 +627,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora01);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora01);
                 mediaplayer.start();
             }
         });
@@ -636,7 +636,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora02);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora02);
                 mediaplayer.start();
             }
         });
@@ -645,7 +645,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora03);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora03);
                 mediaplayer.start();
             }
         });
@@ -654,7 +654,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora04);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora04);
                 mediaplayer.start();
             }
         });
@@ -663,7 +663,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora05);
+                mediaplayer = MediaPlayer.create(Miki_Result, R.raw.dora05)
                 mediaplayer.start();
             }
         });
@@ -672,7 +672,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora06);
+                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.miki_fan_dora06);
                 mediaplayer.start();
             }
         });
@@ -681,7 +681,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora07);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora07);
                 mediaplayer.start();
             }
         });
@@ -690,7 +690,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora08);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora08);
                 mediaplayer.start();
             }
         });
@@ -699,7 +699,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora09);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora09);
                 mediaplayer.start();
             }
         });
@@ -708,7 +708,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora10);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora10);
                 mediaplayer.start();
             }
         });
@@ -717,7 +717,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora11);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora11);
                 mediaplayer.start();
             }
         });
@@ -726,7 +726,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora12);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora12);
                 mediaplayer.start();
             }
         });
@@ -735,7 +735,7 @@ public class Ichihime_Result extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Result.this, R.raw.ichi_fan_dora13);
+                mediaplayer = MediaPlayer.create(Miki_Result.this, R.raw.miki_fan_dora13);
                 mediaplayer.start();
             }
         });

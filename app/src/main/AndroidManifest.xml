@@ -23,6 +23,9 @@
         <activity android:name=".Ichihime_Result"/>
         <activity android:name=".Ichihime_Sign"/>
         <activity android:name=".Miki_Main"/>
+        <activity android:name=".Miki_Sign"/>
+        <activity android:name=".Miki_Result"/>
+        <activity android:name=".Miki_Score"/>
 
 
     </application>
