@@ -115,7 +115,7 @@ public class Ichihime_Score extends Activity {
             @Override
             public void onClick(View v) {
                 mediaplayer.stop();
-                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kazoe_yakuman);
+                mediaplayer = MediaPlayer.create(Ichihime_Score.this, R.raw.ichi_gameend_kazoeyakuman);
                 mediaplayer.start();
             }
         });

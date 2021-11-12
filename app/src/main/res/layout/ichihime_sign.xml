@@ -26,31 +26,30 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:orientation="vertical"
-                    android:paddingEnd="10dp"
-                    android:paddingStart="10dp">
+                    android:padding="10dp">
 
                     <Button
                         android:id="@+id/chi"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="@string/chi" />
 
                     <Button
                         android:id="@+id/pon"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pon" />
 
                     <Button
                         android:id="@+id/richi"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/richi" />
 
                     <Button
                         android:id="@+id/tsumo"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/tsumo" />
 
@@ -61,30 +60,31 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
                     <Button
                         android:id="@+id/kan"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="@string/kan" />
 
                     <Button
                         android:id="@+id/pedora"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/pedora" />
 
                     <Button
                         android:id="@+id/doublerichi"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/doublerichi" />
 
                     <Button
                         android:id="@+id/ron"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/ron" />
 

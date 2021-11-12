@@ -25,60 +25,61 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
                     <Button
                         android:id="@+id/tenpai"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="@string/tenpai" />
 
                     <Button
                         android:id="@+id/mangan"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/mangan" />
 
                     <Button
                         android:id="@+id/baiman"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/baiman" />
 
                     <Button
                         android:id="@+id/kazoeyakuman"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/kazoeyakuman" />
 
                     <Button
                         android:id="@+id/yakuman2"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman2" />
 
                     <Button
                         android:id="@+id/yakuman4"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman4" />
 
                     <Button
                         android:id="@+id/yakuman6"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman6" />
 
                     <Button
                         android:id="@+id/tsuukan"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/tsuukan" />
 
                     <Button
                         android:id="@+id/winner"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/winner" />
 
@@ -89,54 +90,55 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:padding="10dp">
 
                     <Button
                         android:id="@+id/noten"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:text="@string/noten" />
 
                     <Button
                         android:id="@+id/haneman"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/haneman" />
 
                     <Button
                         android:id="@+id/sanbaiman"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/sanbaiman" />
 
                     <Button
                         android:id="@+id/yakuman"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman" />
 
                     <Button
                         android:id="@+id/yakuman3"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman3" />
 
                     <Button
                         android:id="@+id/yakuman5"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/yakuman5" />
 
                     <Button
                         android:id="@+id/kyusyu"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/kyusyu" />
 
                     <Button
                         android:id="@+id/wind4"
-                        android:layout_width="160dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/wind4" />
 
